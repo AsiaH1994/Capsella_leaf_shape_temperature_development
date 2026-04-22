@@ -9,6 +9,12 @@ Growth data collected from Janurary 2022 to December 2024 includes the leaf numb
 
 The leaf shape data includes the file, condition, genotype, pixels per centimeter (px_cm), coordinates for the base (base_x and base_y) and tip (tip_x and tip_y) of each leaf. Each rosette is assigned a unique two letter plant identifier (plant_id). This data also includes the measured length, width, area, circularity, aspect ratio, solidity, asymmetry, and relative node data. The relative node represents the leaf position in the rosette normalized by temperature condition and genotype as node/max(node). Leaf shape data can be found in the csv labeled shape_data_pub_042226.csv. 
 
+### Jupyter notebooks
+
+Steps for leaf shape analysis can be found in the jupyter notebook GPA_leaf_shape_v1.ipynb. 
+
+Steps for measuring the Euclidean distance between mean leaf shapes can be found in the jupyter notebook capsella_temp_common_garden_adden.ipynb.
+
 ### Soil moisture data
 
 Soil moisuture data was not included in the growth or leaf shape analysis. The data is available here for future analysis. 
